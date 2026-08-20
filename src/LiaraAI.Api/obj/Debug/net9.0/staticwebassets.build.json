@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "XVU3zSM4/OhH63Es9bOuUdgh4aZUIAOJKqYCwCNVSF8=",
+  "Source": "LiaraAI.Api",
+  "BasePath": "_content/LiaraAI.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

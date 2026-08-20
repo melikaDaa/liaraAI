@@ -1,0 +1,11 @@
+D:\New folder\LiaraAI\src\LiaraAI.Domain\bin\Debug\net9.0\LiaraAI.Domain.deps.json
+D:\New folder\LiaraAI\src\LiaraAI.Domain\bin\Debug\net9.0\LiaraAI.Domain.dll
+D:\New folder\LiaraAI\src\LiaraAI.Domain\bin\Debug\net9.0\LiaraAI.Domain.pdb
+D:\New folder\LiaraAI\src\LiaraAI.Domain\obj\Debug\net9.0\LiaraAI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\LiaraAI\src\LiaraAI.Domain\obj\Debug\net9.0\LiaraAI.Domain.AssemblyInfoInputs.cache
+D:\New folder\LiaraAI\src\LiaraAI.Domain\obj\Debug\net9.0\LiaraAI.Domain.AssemblyInfo.cs
+D:\New folder\LiaraAI\src\LiaraAI.Domain\obj\Debug\net9.0\LiaraAI.Domain.csproj.CoreCompileInputs.cache
+D:\New folder\LiaraAI\src\LiaraAI.Domain\obj\Debug\net9.0\LiaraAI.Domain.dll
+D:\New folder\LiaraAI\src\LiaraAI.Domain\obj\Debug\net9.0\refint\LiaraAI.Domain.dll
+D:\New folder\LiaraAI\src\LiaraAI.Domain\obj\Debug\net9.0\LiaraAI.Domain.pdb
+D:\New folder\LiaraAI\src\LiaraAI.Domain\obj\Debug\net9.0\ref\LiaraAI.Domain.dll

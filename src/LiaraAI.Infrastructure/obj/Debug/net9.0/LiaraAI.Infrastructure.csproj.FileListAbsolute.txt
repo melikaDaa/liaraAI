@@ -1,0 +1,17 @@
+D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\bin\Debug\net9.0\LiaraAI.Infrastructure.deps.json
+D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\bin\Debug\net9.0\LiaraAI.Infrastructure.dll
+D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\bin\Debug\net9.0\LiaraAI.Infrastructure.pdb
+D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\bin\Debug\net9.0\LiaraAI.Application.dll
+D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\bin\Debug\net9.0\LiaraAI.Domain.dll
+D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\bin\Debug\net9.0\LiaraAI.Application.pdb
+D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\bin\Debug\net9.0\LiaraAI.Domain.pdb
+D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\obj\Debug\net9.0\LiaraAI.Infrastructure.csproj.AssemblyReference.cache
+D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\obj\Debug\net9.0\LiaraAI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\obj\Debug\net9.0\LiaraAI.Infrastructure.AssemblyInfoInputs.cache
+D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\obj\Debug\net9.0\LiaraAI.Infrastructure.AssemblyInfo.cs
+D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\obj\Debug\net9.0\LiaraAI.Infrastructure.csproj.CoreCompileInputs.cache
+D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\obj\Debug\net9.0\LiaraAI..A46495A6.Up2Date
+D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\obj\Debug\net9.0\LiaraAI.Infrastructure.dll
+D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\obj\Debug\net9.0\refint\LiaraAI.Infrastructure.dll
+D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\obj\Debug\net9.0\LiaraAI.Infrastructure.pdb
+D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\obj\Debug\net9.0\ref\LiaraAI.Infrastructure.dll
