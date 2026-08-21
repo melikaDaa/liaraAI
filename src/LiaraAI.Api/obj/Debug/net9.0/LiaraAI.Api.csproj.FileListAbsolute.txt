@@ -153,3 +153,4 @@ D:\New folder\LiaraAI\src\LiaraAI.Api\obj\Debug\net9.0\compressed\d3uibcpx11-3mg
 D:\New folder\LiaraAI\src\LiaraAI.Api\obj\Debug\net9.0\compressed\knk8ee42ec-r97cn870lv.gz
 D:\New folder\LiaraAI\src\LiaraAI.Api\obj\Debug\net9.0\compressed\exd4x5lvrd-8ttmufe993.gz
 D:\New folder\LiaraAI\src\LiaraAI.Api\obj\Debug\net9.0\compressed\kmr48vbe76-hfx5tatp7x.gz
+D:\New folder\LiaraAI\src\LiaraAI.Api\obj\Debug\net9.0\LiaraAI.Api.sourcelink.json

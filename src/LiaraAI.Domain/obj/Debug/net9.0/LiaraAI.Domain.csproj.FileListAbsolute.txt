@@ -9,3 +9,4 @@ D:\New folder\LiaraAI\src\LiaraAI.Domain\obj\Debug\net9.0\LiaraAI.Domain.dll
 D:\New folder\LiaraAI\src\LiaraAI.Domain\obj\Debug\net9.0\refint\LiaraAI.Domain.dll
 D:\New folder\LiaraAI\src\LiaraAI.Domain\obj\Debug\net9.0\LiaraAI.Domain.pdb
 D:\New folder\LiaraAI\src\LiaraAI.Domain\obj\Debug\net9.0\ref\LiaraAI.Domain.dll
+D:\New folder\LiaraAI\src\LiaraAI.Domain\obj\Debug\net9.0\LiaraAI.Domain.sourcelink.json

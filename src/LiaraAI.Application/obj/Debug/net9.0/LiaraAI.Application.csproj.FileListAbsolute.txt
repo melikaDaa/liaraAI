@@ -13,3 +13,4 @@ D:\New folder\LiaraAI\src\LiaraAI.Application\obj\Debug\net9.0\LiaraAI.Applicati
 D:\New folder\LiaraAI\src\LiaraAI.Application\obj\Debug\net9.0\refint\LiaraAI.Application.dll
 D:\New folder\LiaraAI\src\LiaraAI.Application\obj\Debug\net9.0\LiaraAI.Application.pdb
 D:\New folder\LiaraAI\src\LiaraAI.Application\obj\Debug\net9.0\ref\LiaraAI.Application.dll
+D:\New folder\LiaraAI\src\LiaraAI.Application\obj\Debug\net9.0\LiaraAI.Application.sourcelink.json
