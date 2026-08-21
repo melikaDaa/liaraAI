@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="دستیار هوشمند مستندات لیارا" />
+    <title>Liara AI — دستیار هوشمند مستندات لیارا</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+    <div class="app">
+        <!-- ==================== Sidebar ==================== -->
+        <aside class="sidebar" id="sidebar" aria-label="نوار کناری">
+            <div class="sidebar__header">
+                <div class="sidebar__brand">
+                    <span class="sidebar__logo" aria-hidden="true">
+                        <svg viewBox="0 0 20 20" width="16" height="16" fill="none">
+                            <path d="M4 14a3.5 3.5 0 0 1-.42-6.98A4.7 4.7 0 0 1 13.3 6.2 3.2 3.2 0 0 1 14.5 14H4Z" fill="currentColor" opacity="0.2"/>
+                            <path d="M4 14a3.5 3.5 0 0 1-.42-6.98A4.7 4.7 0 0 1 13.3 6.2 3.2 3.2 0 0 1 14.5 14H4Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+                        </svg>
+                    </span>
+                    <span class="sidebar__name">LIARA AI</span>
+                </div>
+                <button class="sidebar__close" id="sidebarClose" type="button" aria-label="بستن نوار کناری">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+                </button>
+            </div>
+
+            <button class="sidebar__new-chat" id="newChatBtn" type="button">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+                گفتگوی جدید
+            </button>
+
+            <div class="sidebar__section">
+                <h3 class="sidebar__heading">گفتگوهای اخیر</h3>
+                <div class="sidebar__list" id="recentChats">
+                    <p class="sidebar__empty">هنوز گفتگویی ندارید.</p>
+                </div>
+            </div>
+
+            <div class="sidebar__section">
+                <h3 class="sidebar__heading">دسترسی سریع</h3>
+                <nav class="sidebar__nav" aria-label="دسترسی سریع">
+                    <a class="sidebar__link" href="https://docs.liara.ir" target="_blank" rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A1.5 1.5 0 0 1 5.5 3H19a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H5.5a1.5 1.5 0 0 1-1.5-1.5Z"/><path d="M8 7h8M8 11h8M8 15h5"/></svg>
+                        مستندات
+                    </a>
+                    <a class="sidebar__link" href="https://docs.liara.ir/introduction" target="_blank" rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                        سرویس‌های لیارا
+                    </a>
+                    <a class="sidebar__link" href="https://docs.liara.ir/deploy" target="_blank" rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5Z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                        راهنمای Deploy
+                    </a>
+                    <a class="sidebar__link" href="https://docs.liara.ir/database" target="_blank" rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                        پایگاه‌های داده
+                    </a>
+                    <a class="sidebar__link" href="https://docs.liara.ir/object-storage" target="_blank" rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-6l-2 3h-4l-2-3H2"/><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11Z"/></svg>
+                        Storage
+                    </a>
+                </nav>
+            </div>
+
+            <div class="sidebar__footer">
+                <a class="sidebar__footer-link" href="https://liara.ir" target="_blank" rel="noopener noreferrer">liara.ir</a>
+            </div>
+        </aside>
+
+        <!-- ==================== Overlay for mobile sidebar ==================== -->
+        <div class="sidebar-overlay" id="sidebarOverlay" aria-hidden="true"></div>
+
+        <!-- ==================== Workspace ==================== -->
+        <div class="workspace">
+            <!-- Top bar -->
+            <header class="topbar">
+                <button class="topbar__menu" id="menuBtn" type="button" aria-label="باز کردن نوار کناری">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+                </button>
+                <div class="topbar__left">
+                    <span class="topbar__title">LIARA AI</span>
+                    <span class="topbar__status">
+                        <span class="topbar__dot" aria-hidden="true"></span>
+                        آماده پاسخگویی
+                    </span>
+                </div>
+                <div class="topbar__right">
+                    <span class="topbar__label">Documentation Assistant</span>
+                </div>
+            </header>
+
+            <!-- Chat area -->
+            <main class="chat" id="chat">
+                <!-- Welcome screen -->
+                <section class="welcome" id="welcome">
+                    <div class="welcome__visual" aria-hidden="true">
+                        <div class="welcome__pulse"></div>
+                        <span class="welcome__icon">
+                            <svg viewBox="0 0 20 20" width="28" height="28" fill="none">
+                                <path d="M4 14a3.5 3.5 0 0 1-.42-6.98A4.7 4.7 0 0 1 13.3 6.2 3.2 3.2 0 0 1 14.5 14H4Z" fill="currentColor" opacity="0.2"/>
+                                <path d="M4 14a3.5 3.5 0 0 1-.42-6.98A4.7 4.7 0 0 1 13.3 6.2 3.2 3.2 0 0 1 14.5 14H4Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                    </div>
+
+                    <h1 class="welcome__title">LIARA AI</h1>
+                    <p class="welcome__tagline">مستندات لیارا را<br>سریع‌تر پیدا کن.</p>
+                    <p class="welcome__subtitle">دستیار هوشمند توسعه‌دهندگان</p>
+
+                    <div class="suggestions" id="suggestions">
+                        <button class="suggestion" type="button">
+                            <span class="suggestion__icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5Z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                            </span>
+                            <span class="suggestion__content">
+                                <span class="suggestion__label">Deploy</span>
+                                <span class="suggestion__text">چطور پروژه‌ام را روی لیارا Deploy کنم؟</span>
+                            </span>
+                        </button>
+                        <button class="suggestion" type="button">
+                            <span class="suggestion__icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                            </span>
+                            <span class="suggestion__content">
+                                <span class="suggestion__label">Database</span>
+                                <span class="suggestion__text">چطور PostgreSQL ایجاد کنم؟</span>
+                            </span>
+                        </button>
+                        <button class="suggestion" type="button">
+                            <span class="suggestion__icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"/><path d="M12 6v6l4 2"/></svg>
+                            </span>
+                            <span class="suggestion__content">
+                                <span class="suggestion__label">Environment</span>
+                                <span class="suggestion__text">متغیرهای محیطی را چطور تنظیم کنم؟</span>
+                            </span>
+                        </button>
+                        <button class="suggestion" type="button">
+                            <span class="suggestion__icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-6l-2 3h-4l-2-3H2"/><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11Z"/></svg>
+                            </span>
+                            <span class="suggestion__content">
+                                <span class="suggestion__label">Storage</span>
+                                <span class="suggestion__text">Object Storage چطور کار می‌کند؟</span>
+                            </span>
+                        </button>
+                    </div>
+                </section>
+
+                <!-- Message list -->
+                <div class="messages" id="messages" aria-live="polite"></div>
+            </main>
+
+            <!-- Composer -->
+            <footer class="composer">
+                <form class="composer__form" id="composerForm">
+                    <textarea
+                        id="input"
+                        class="composer__input"
+                        rows="1"
+                        placeholder="سوال خود را درباره لیارا بپرسید…"
+                        autocomplete="off"
+                        dir="rtl"
+                        aria-label="پیام خود را بنویسید"></textarea>
+                    <button class="composer__send" id="sendBtn" type="submit" aria-label="ارسال" disabled>
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+                    </button>
+                </form>
+                <p class="composer__hint">پاسخ‌ها در این نسخه نمایشی هستند و بعداً به موتور RAG واقعی متصل می‌شوند.</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="/js/markdown.js"></script>
+    <script src="/js/app.js" defer></script>
+</body>
+</html>

@@ -18,4 +18,9 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\LiaraAI.Domain\LiaraAI.Domain.csproj" />
+    <ProjectReference Include="..\..\src\LiaraAI.Application\LiaraAI.Application.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,12 +1,1382 @@
 {
   "Version": 1,
-  "Hash": "XVU3zSM4/OhH63Es9bOuUdgh4aZUIAOJKqYCwCNVSF8=",
+  "Hash": "7l6+wC+tRM8Jxkob/2YVdw5bgQqDRjTzHjTrZnm6L2A=",
   "Source": "LiaraAI.Api",
   "BasePath": "_content/LiaraAI.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "LiaraAI.Api\\wwwroot",
+      "Source": "LiaraAI.Api",
+      "ContentRoot": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\",
+      "BasePath": "_content/LiaraAI.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\d3uibcpx11-3mg1v8l3g8.gz",
+      "SourceId": "LiaraAI.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/LiaraAI.Api",
+      "RelativePath": "js/markdown#[.{fingerprint=3mg1v8l3g8}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\js\\markdown.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "mp1e7tohuf",
+      "Integrity": "1kQ4jj2bv2P6vwxUMbDalwoAhfKZkC6+kGkSUtkN/8g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\js\\markdown.js"
+    },
+    {
+      "Identity": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\exd4x5lvrd-8ttmufe993.gz",
+      "SourceId": "LiaraAI.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/LiaraAI.Api",
+      "RelativePath": "css/styles#[.{fingerprint=8ttmufe993}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\css\\styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "rqt5fqx3g1",
+      "Integrity": "LfPmiZIKHoHVTWg0Hr07j1wTzsWZsiY+RhtldGuqirA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\kmr48vbe76-hfx5tatp7x.gz",
+      "SourceId": "LiaraAI.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/LiaraAI.Api",
+      "RelativePath": "js/app#[.{fingerprint=hfx5tatp7x}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\js\\app.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "9cxakur2nn",
+      "Integrity": "ScO9f7vbtOdIQQSoklfW2MyurukMnVe7tIY9ls6i0aE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\js\\app.js"
+    },
+    {
+      "Identity": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\knk8ee42ec-r97cn870lv.gz",
+      "SourceId": "LiaraAI.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/LiaraAI.Api",
+      "RelativePath": "index#[.{fingerprint=r97cn870lv}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xt6ndo79gi",
+      "Integrity": "Vb8OAnFLJjEPrCInCTgWFrrCkKOIQhXINI+Ya+5g+Mo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\css\\styles.css",
+      "SourceId": "LiaraAI.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\",
+      "BasePath": "_content/LiaraAI.Api",
+      "RelativePath": "css/styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8ttmufe993",
+      "Integrity": "lCU3LqRWUlHIpPnjiKPShB1r/uCH6lTp09lYm2Og91M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\index.html",
+      "SourceId": "LiaraAI.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\",
+      "BasePath": "_content/LiaraAI.Api",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r97cn870lv",
+      "Integrity": "MUmqMErbsD/m7+MSkEZCIpAGtkoolfv8VMxDikf/aXc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\js\\app.js",
+      "SourceId": "LiaraAI.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\",
+      "BasePath": "_content/LiaraAI.Api",
+      "RelativePath": "js/app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hfx5tatp7x",
+      "Integrity": "gxKmGp+gZ2GiMEPefpWrMt5a6O8yb9MVK4cevXz9r5A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\app.js"
+    },
+    {
+      "Identity": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\js\\markdown.js",
+      "SourceId": "LiaraAI.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\",
+      "BasePath": "_content/LiaraAI.Api",
+      "RelativePath": "js/markdown#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3mg1v8l3g8",
+      "Integrity": "W7mXbyKXtLkiWZ7MzNDqDQf+jDEYT7gODQDIc9Vh/g8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\markdown.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/styles.8ttmufe993.css",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\exd4x5lvrd-8ttmufe993.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000247770069"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4035"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LfPmiZIKHoHVTWg0Hr07j1wTzsWZsiY+RhtldGuqirA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Aug 2026 08:39:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lCU3LqRWUlHIpPnjiKPShB1r/uCH6lTp09lYm2Og91M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8ttmufe993"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lCU3LqRWUlHIpPnjiKPShB1r/uCH6lTp09lYm2Og91M="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.8ttmufe993.css",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19729"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lCU3LqRWUlHIpPnjiKPShB1r/uCH6lTp09lYm2Og91M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Aug 2026 08:39:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8ttmufe993"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lCU3LqRWUlHIpPnjiKPShB1r/uCH6lTp09lYm2Og91M="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.8ttmufe993.css.gz",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\exd4x5lvrd-8ttmufe993.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LfPmiZIKHoHVTWg0Hr07j1wTzsWZsiY+RhtldGuqirA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Aug 2026 08:39:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8ttmufe993"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LfPmiZIKHoHVTWg0Hr07j1wTzsWZsiY+RhtldGuqirA="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\exd4x5lvrd-8ttmufe993.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000247770069"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4035"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LfPmiZIKHoHVTWg0Hr07j1wTzsWZsiY+RhtldGuqirA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Aug 2026 08:39:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lCU3LqRWUlHIpPnjiKPShB1r/uCH6lTp09lYm2Og91M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lCU3LqRWUlHIpPnjiKPShB1r/uCH6lTp09lYm2Og91M="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19729"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lCU3LqRWUlHIpPnjiKPShB1r/uCH6lTp09lYm2Og91M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Aug 2026 08:39:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lCU3LqRWUlHIpPnjiKPShB1r/uCH6lTp09lYm2Og91M="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css.gz",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\exd4x5lvrd-8ttmufe993.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LfPmiZIKHoHVTWg0Hr07j1wTzsWZsiY+RhtldGuqirA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Aug 2026 08:39:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LfPmiZIKHoHVTWg0Hr07j1wTzsWZsiY+RhtldGuqirA="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\knk8ee42ec-r97cn870lv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000396353547"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2522"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vb8OAnFLJjEPrCInCTgWFrrCkKOIQhXINI+Ya+5g+Mo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Aug 2026 07:00:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"MUmqMErbsD/m7+MSkEZCIpAGtkoolfv8VMxDikf/aXc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MUmqMErbsD/m7+MSkEZCIpAGtkoolfv8VMxDikf/aXc="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12369"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MUmqMErbsD/m7+MSkEZCIpAGtkoolfv8VMxDikf/aXc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Aug 2026 07:00:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MUmqMErbsD/m7+MSkEZCIpAGtkoolfv8VMxDikf/aXc="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\knk8ee42ec-r97cn870lv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2522"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vb8OAnFLJjEPrCInCTgWFrrCkKOIQhXINI+Ya+5g+Mo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Aug 2026 07:00:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vb8OAnFLJjEPrCInCTgWFrrCkKOIQhXINI+Ya+5g+Mo="
+        }
+      ]
+    },
+    {
+      "Route": "index.r97cn870lv.html",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\knk8ee42ec-r97cn870lv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000396353547"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2522"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vb8OAnFLJjEPrCInCTgWFrrCkKOIQhXINI+Ya+5g+Mo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Aug 2026 07:00:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"MUmqMErbsD/m7+MSkEZCIpAGtkoolfv8VMxDikf/aXc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r97cn870lv"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MUmqMErbsD/m7+MSkEZCIpAGtkoolfv8VMxDikf/aXc="
+        }
+      ]
+    },
+    {
+      "Route": "index.r97cn870lv.html",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12369"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MUmqMErbsD/m7+MSkEZCIpAGtkoolfv8VMxDikf/aXc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Aug 2026 07:00:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r97cn870lv"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MUmqMErbsD/m7+MSkEZCIpAGtkoolfv8VMxDikf/aXc="
+        }
+      ]
+    },
+    {
+      "Route": "index.r97cn870lv.html.gz",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\knk8ee42ec-r97cn870lv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2522"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vb8OAnFLJjEPrCInCTgWFrrCkKOIQhXINI+Ya+5g+Mo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Aug 2026 07:00:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r97cn870lv"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vb8OAnFLJjEPrCInCTgWFrrCkKOIQhXINI+Ya+5g+Mo="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.hfx5tatp7x.js",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\kmr48vbe76-hfx5tatp7x.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000194817845"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5132"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ScO9f7vbtOdIQQSoklfW2MyurukMnVe7tIY9ls6i0aE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Aug 2026 08:38:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gxKmGp+gZ2GiMEPefpWrMt5a6O8yb9MVK4cevXz9r5A=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hfx5tatp7x"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gxKmGp+gZ2GiMEPefpWrMt5a6O8yb9MVK4cevXz9r5A="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.hfx5tatp7x.js",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\js\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gxKmGp+gZ2GiMEPefpWrMt5a6O8yb9MVK4cevXz9r5A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Aug 2026 08:38:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hfx5tatp7x"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gxKmGp+gZ2GiMEPefpWrMt5a6O8yb9MVK4cevXz9r5A="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.hfx5tatp7x.js.gz",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\kmr48vbe76-hfx5tatp7x.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ScO9f7vbtOdIQQSoklfW2MyurukMnVe7tIY9ls6i0aE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Aug 2026 08:38:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hfx5tatp7x"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ScO9f7vbtOdIQQSoklfW2MyurukMnVe7tIY9ls6i0aE="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.js",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\kmr48vbe76-hfx5tatp7x.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000194817845"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5132"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ScO9f7vbtOdIQQSoklfW2MyurukMnVe7tIY9ls6i0aE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Aug 2026 08:38:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gxKmGp+gZ2GiMEPefpWrMt5a6O8yb9MVK4cevXz9r5A=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gxKmGp+gZ2GiMEPefpWrMt5a6O8yb9MVK4cevXz9r5A="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.js",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\js\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gxKmGp+gZ2GiMEPefpWrMt5a6O8yb9MVK4cevXz9r5A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Aug 2026 08:38:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gxKmGp+gZ2GiMEPefpWrMt5a6O8yb9MVK4cevXz9r5A="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.js.gz",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\kmr48vbe76-hfx5tatp7x.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ScO9f7vbtOdIQQSoklfW2MyurukMnVe7tIY9ls6i0aE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Aug 2026 08:38:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ScO9f7vbtOdIQQSoklfW2MyurukMnVe7tIY9ls6i0aE="
+        }
+      ]
+    },
+    {
+      "Route": "js/markdown.3mg1v8l3g8.js",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\d3uibcpx11-3mg1v8l3g8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000562429696"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1777"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1kQ4jj2bv2P6vwxUMbDalwoAhfKZkC6+kGkSUtkN/8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Aug 2026 12:13:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"W7mXbyKXtLkiWZ7MzNDqDQf+jDEYT7gODQDIc9Vh/g8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3mg1v8l3g8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/markdown.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W7mXbyKXtLkiWZ7MzNDqDQf+jDEYT7gODQDIc9Vh/g8="
+        }
+      ]
+    },
+    {
+      "Route": "js/markdown.3mg1v8l3g8.js",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\js\\markdown.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5512"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W7mXbyKXtLkiWZ7MzNDqDQf+jDEYT7gODQDIc9Vh/g8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Aug 2026 12:13:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3mg1v8l3g8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/markdown.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W7mXbyKXtLkiWZ7MzNDqDQf+jDEYT7gODQDIc9Vh/g8="
+        }
+      ]
+    },
+    {
+      "Route": "js/markdown.3mg1v8l3g8.js.gz",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\d3uibcpx11-3mg1v8l3g8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1777"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1kQ4jj2bv2P6vwxUMbDalwoAhfKZkC6+kGkSUtkN/8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Aug 2026 12:13:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3mg1v8l3g8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/markdown.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1kQ4jj2bv2P6vwxUMbDalwoAhfKZkC6+kGkSUtkN/8g="
+        }
+      ]
+    },
+    {
+      "Route": "js/markdown.js",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\d3uibcpx11-3mg1v8l3g8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000562429696"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1777"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1kQ4jj2bv2P6vwxUMbDalwoAhfKZkC6+kGkSUtkN/8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Aug 2026 12:13:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"W7mXbyKXtLkiWZ7MzNDqDQf+jDEYT7gODQDIc9Vh/g8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W7mXbyKXtLkiWZ7MzNDqDQf+jDEYT7gODQDIc9Vh/g8="
+        }
+      ]
+    },
+    {
+      "Route": "js/markdown.js",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\wwwroot\\js\\markdown.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5512"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W7mXbyKXtLkiWZ7MzNDqDQf+jDEYT7gODQDIc9Vh/g8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Aug 2026 12:13:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W7mXbyKXtLkiWZ7MzNDqDQf+jDEYT7gODQDIc9Vh/g8="
+        }
+      ]
+    },
+    {
+      "Route": "js/markdown.js.gz",
+      "AssetFile": "D:\\New folder\\LiaraAI\\src\\LiaraAI.Api\\obj\\Debug\\net9.0\\compressed\\d3uibcpx11-3mg1v8l3g8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1777"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1kQ4jj2bv2P6vwxUMbDalwoAhfKZkC6+kGkSUtkN/8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Aug 2026 12:13:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1kQ4jj2bv2P6vwxUMbDalwoAhfKZkC6+kGkSUtkN/8g="
+        }
+      ]
+    }
+  ]
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LiaraAI.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f457c329609c83b66e9babf37db9e6b259102b9")]
 [assembly: System.Reflection.AssemblyProductAttribute("LiaraAI.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LiaraAI.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

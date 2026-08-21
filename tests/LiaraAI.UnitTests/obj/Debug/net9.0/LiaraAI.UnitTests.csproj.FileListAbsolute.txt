@@ -96,3 +96,16 @@ D:\New folder\LiaraAI\tests\LiaraAI.UnitTests\obj\Debug\net9.0\refint\LiaraAI.Un
 D:\New folder\LiaraAI\tests\LiaraAI.UnitTests\obj\Debug\net9.0\LiaraAI.UnitTests.pdb
 D:\New folder\LiaraAI\tests\LiaraAI.UnitTests\obj\Debug\net9.0\LiaraAI.UnitTests.genruntimeconfig.cache
 D:\New folder\LiaraAI\tests\LiaraAI.UnitTests\obj\Debug\net9.0\ref\LiaraAI.UnitTests.dll
+D:\New folder\LiaraAI\tests\LiaraAI.UnitTests\bin\Debug\net9.0\.msCoverageSourceRootsMapping_LiaraAI.UnitTests
+D:\New folder\LiaraAI\tests\LiaraAI.UnitTests\bin\Debug\net9.0\CoverletSourceRootsMapping_LiaraAI.UnitTests
+D:\New folder\LiaraAI\tests\LiaraAI.UnitTests\bin\Debug\net9.0\LiaraAI.Domain.dll
+D:\New folder\LiaraAI\tests\LiaraAI.UnitTests\bin\Debug\net9.0\LiaraAI.Domain.pdb
+D:\New folder\LiaraAI\tests\LiaraAI.UnitTests\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\New folder\LiaraAI\tests\LiaraAI.UnitTests\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\New folder\LiaraAI\tests\LiaraAI.UnitTests\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\New folder\LiaraAI\tests\LiaraAI.UnitTests\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\New folder\LiaraAI\tests\LiaraAI.UnitTests\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\New folder\LiaraAI\tests\LiaraAI.UnitTests\bin\Debug\net9.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\New folder\LiaraAI\tests\LiaraAI.UnitTests\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\New folder\LiaraAI\tests\LiaraAI.UnitTests\bin\Debug\net9.0\LiaraAI.Application.dll
+D:\New folder\LiaraAI\tests\LiaraAI.UnitTests\bin\Debug\net9.0\LiaraAI.Application.pdb

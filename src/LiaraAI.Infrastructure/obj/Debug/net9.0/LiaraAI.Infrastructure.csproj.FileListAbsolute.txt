@@ -15,3 +15,5 @@ D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\obj\Debug\net9.0\LiaraAI.Infras
 D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\obj\Debug\net9.0\refint\LiaraAI.Infrastructure.dll
 D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\obj\Debug\net9.0\LiaraAI.Infrastructure.pdb
 D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\obj\Debug\net9.0\ref\LiaraAI.Infrastructure.dll
+D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\bin\Debug\net9.0\LiaraAI.Infrastructure.runtimeconfig.json
+D:\New folder\LiaraAI\src\LiaraAI.Infrastructure\obj\Debug\net9.0\LiaraAI.Infrastructure.genruntimeconfig.cache
