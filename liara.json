@@ -1,4 +1,9 @@
 {
- 
-  "port": 3000
+  "app": "competent-davinci-e5z8j-xhq",
+  "port": 3000,
+  "team-id": "6a86b8e78633b8fa156facca",
+  "build": {
+    "location": "iran"
+  },
+  "disks": []
 }
